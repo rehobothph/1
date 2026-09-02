@@ -1,0 +1,6 @@
+{
+  "name": "Rehoboth Prayer House Madapura",
+  "description": "Rehoboth Prayer House Madapura - A House of Prayer for All Nations. Senior Pastor Pr. Ramesh C (+91 73536 09920). Church app featuring Kannada & English worship services, songbook hymns, prayer requests wall, daily devotionals, and ministry updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
