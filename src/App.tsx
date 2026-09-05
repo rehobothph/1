@@ -86,6 +86,23 @@ export default function App() {
       {/* 3. Church Footer */}
       <Footer currentLang={currentLang} />
 
+      {/* Developer Credit Section */}
+      <div className="bg-gray-900 text-gray-400 py-4 text-center border-t border-gray-800">
+        <div className="container mx-auto px-4">
+          <p className="text-xs uppercase tracking-widest text-indigo-400 font-semibold">
+            Designed & Developed by
+          </p>
+          <p className="text-sm font-bold text-white mt-1">
+            Shyam R
+          </p>
+          <div className="flex justify-center items-center gap-3 text-xs mt-1">
+            <a href="tel:8073407706" className="hover:text-white transition">📞 8073407706</a>
+            <span>•</span>
+            <a href="mailto:shamrocky80@gmail.com" className="hover:text-white transition">✉️ shamrocky80@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
       {/* 4. Quick Action Floating Dock */}
       <FloatingActionDock currentLang={currentLang} />
     </div>
